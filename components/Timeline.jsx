@@ -10,8 +10,10 @@ export default function Timeline() {
   useEffect(() => {
     const loadTranslations = async () => {
       const language = localStorage.getItem("language") || "sk";
-      const module = await import(`../public/locales/${language}.json`);
-      setTranslations(module.default);
+      const translationsModule = await import(
+        `../public/locales/${language}.json`
+      );
+      setTranslations(translationsModule.default);
     };
 
     loadTranslations();

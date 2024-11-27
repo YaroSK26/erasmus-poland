@@ -66,18 +66,20 @@ export default function ContactForm() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
-  useEffect(() => {
-    const loadTranslations = async () => {
-      try {
-        const language = localStorage.getItem("language") || "sk";
-        const module = await import(`../public/locales/${language}.json`);
-        setTranslations(module.default);
-      } catch (error) {
-        console.error("Error loading translations:", error);
-      }
-    };
-    loadTranslations();
-  }, []);
+useEffect(() => {
+  const loadTranslations = async () => {
+    try {
+      const language = localStorage.getItem("language") || "sk";
+      const translationsModule = await import(
+        `../public/locales/${language}.json`
+      );
+      setTranslations(translationsModule.default);
+    } catch (error) {
+      console.error("Error loading translations:", error);
+    }
+  };
+  loadTranslations();
+}, []);
 
   const form = useForm({
     resolver: zodResolver(formSchema),

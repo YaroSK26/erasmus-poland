@@ -57,21 +57,23 @@ export default function Quiz() {
   const [showResult, setShowResult] = useState(false);
   const [language, setLanguage] = useState("sk");
 
-  useEffect(() => {
-    const loadTranslations = async () => {
-      try {
-        const storedLanguage = localStorage.getItem("language") || "sk";
-        setLanguage(storedLanguage);
-        const module = await import(`../public/locales/${storedLanguage}.json`);
-        setTranslations(module.default);
-      } catch (error) {
-        console.error("Error loading translations:", error);
-      }
-    };
+useEffect(() => {
+  const loadTranslations = async () => {
+    try {
+      const storedLanguage = localStorage.getItem("language") || "sk";
+      setLanguage(storedLanguage);
+      const translationsModule = await import(
+        `../public/locales/${storedLanguage}.json`
+      );
+      setTranslations(translationsModule.default);
+    } catch (error) {
+      console.error("Error loading translations:", error);
+    }
+  };
 
-    loadTranslations();
-    setShuffledQuestions(shuffleArray(questions));
-  }, []);
+  loadTranslations();
+  setShuffledQuestions(shuffleArray(questions));
+}, []);
 
   const handleAnswer = (answer) => {
     if (answer === shuffledQuestions[currentQuestion].correctAnswer[language]) {
