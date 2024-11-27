@@ -1,0 +1,169 @@
+[
+  {
+    "question": {
+      "sk": "Čo je to umelá inteligencia?",
+      "pl": "Co to jest sztuczna inteligencja?"
+    },
+    "answers": [
+      {
+        "text": {
+          "sk": "Stroj, ktorý dokáže rozmýšľať ako človek",
+          "pl": "Maszyna, która potrafi myśleć jak człowiek"
+        },
+        "correct": true
+      },
+      {
+        "text": {
+          "sk": "Technológia na úpravu videí",
+          "pl": "Technologia edycji wideo"
+        },
+        "correct": false
+      },
+      {
+        "text": {
+          "sk": "Vedecká metóda analýzy údajov",
+          "pl": "Metoda naukowa analizy danych"
+        },
+        "correct": false
+      },
+      {
+        "text": {
+          "sk": "Systém na riadenie robotov",
+          "pl": "System do zarządzania robotami"
+        },
+        "correct": false
+      }
+    ],
+    "correctAnswer": {
+      "sk": "Stroj, ktorý dokáže rozmýšľať ako človek",
+      "pl": "Maszyna, która potrafi myśleć jak człowiek"
+    }
+  },
+  {
+    "question": {
+      "sk": "Čo je neuronová sieť?",
+      "pl": "Co to jest sieć neuronowa?"
+    },
+    "answers": [
+      {
+        "text": {
+          "sk": "Algoritmus inšpirovaný ľudským mozgom",
+          "pl": "Algorytm inspirowany ludzkim mózgiem"
+        },
+        "correct": true
+      },
+      {
+        "text": {
+          "sk": "Sieť počítačov spojených internetom",
+          "pl": "Sieć komputerów połączonych internetem"
+        },
+        "correct": false
+      },
+      {
+        "text": {
+          "sk": "Typ databázy používaný v AI",
+          "pl": "Typ bazy danych używany w AI"
+        },
+        "correct": false
+      },
+      {
+        "text": {
+          "sk": "Jazyk programovania pre AI",
+          "pl": "Język programowania dla AI"
+        },
+        "correct": false
+      }
+    ],
+    "correctAnswer": {
+      "sk": "Algoritmus inšpirovaný ľudským mozgom",
+      "pl": "Algorytm inspirowany ludzkim mózgiem"
+    }
+  },
+  {
+    "question": {
+      "sk": "Ktorá z týchto technológií je založená na hlbokom učení?",
+      "pl": "Która z tych technologii jest oparta na głębokim uczeniu?"
+    },
+    "answers": [
+      {
+        "text": {
+          "sk": "Rozpoznávanie obrázkov v aplikáciách",
+          "pl": "Rozpoznawanie obrazów w aplikacjach"
+        },
+        "correct": true
+      },
+      {
+        "text": { "sk": "Textové procesory", "pl": "Edytory tekstów" },
+        "correct": false
+      },
+      {
+        "text": {
+          "sk": "Základné vyhľadávače",
+          "pl": "Podstawowe wyszukiwarki"
+        },
+        "correct": false
+      },
+      {
+        "text": { "sk": "Rádiové vysielače", "pl": "Nadajniki radiowe" },
+        "correct": false
+      }
+    ],
+    "correctAnswer": {
+      "sk": "Rozpoznávanie obrázkov v aplikáciách",
+      "pl": "Rozpoznawanie obrazów w aplikacjach"
+    }
+  },
+  {
+    "question": {
+      "sk": "Kedy bol vyvinutý prvý chatbot ELIZA?",
+      "pl": "Kiedy stworzono pierwszego chatbota ELIZA?"
+    },
+    "answers": [
+      { "text": { "sk": "1966", "pl": "1966" }, "correct": true },
+      { "text": { "sk": "1982", "pl": "1982" }, "correct": false },
+      { "text": { "sk": "2001", "pl": "2001" }, "correct": false },
+      { "text": { "sk": "2012", "pl": "2012" }, "correct": false }
+    ],
+    "correctAnswer": { "sk": "1966", "pl": "1966" }
+  },
+  {
+    "question": {
+      "sk": "Aký bol hlavný prielom v AI v roku 2012?",
+      "pl": "Jaki był główny przełom w AI w 2012 roku?"
+    },
+    "answers": [
+      {
+        "text": {
+          "sk": "Generovanie realistických obrázkov",
+          "pl": "Generowanie realistycznych obrazów"
+        },
+        "correct": false
+      },
+      {
+        "text": {
+          "sk": "AlexNet vyhráva ImageNet súťaž",
+          "pl": "AlexNet wygrywa konkurs ImageNet"
+        },
+        "correct": true
+      },
+      {
+        "text": {
+          "sk": "Roboty začínajú samostatne učiť",
+          "pl": "Roboty zaczynają uczyć się samodzielnie"
+        },
+        "correct": false
+      },
+      {
+        "text": {
+          "sk": "Vytvorenie samovoľne riadených vozidiel",
+          "pl": "Tworzenie pojazdów autonomicznych"
+        },
+        "correct": false
+      }
+    ],
+    "correctAnswer": {
+      "sk": "AlexNet vyhráva ImageNet súťaž",
+      "pl": "AlexNet wygrywa konkurs ImageNet"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+{
+    "welcome_message": "Vitajte na stránke o AI a neuronových sieťach",
+    "description": "Prečítajte si o pokrokoch v AI, testujte svoje znalosti a dozviete sa viac o najnovších trendoch v oblasti umelej inteligencie!",
+    "timeline_title": "Timeline pokrokov v AI",
+    "events": [
+        { "year": 1956, "event": "Začiatky AI - Dartmouth Conference" },
+        { "year": 1966, "event": "Prvý chatovací bot ELIZA" },
+        { "year": 1997, "event": "Deep Blue poráža Kasparova v šachu" },
+        { "year": 2002, "event": "Začiatok vývoja autonómnych vozidiel" },
+        { "year": 2006, "event": "Prelom v hlbokom učení s prechodom na GPU" },
+        { "year": 2012, "event": "AlexNet získa titul v ImageNet súťaži" },
+        { "year": 2016, "event": "AlphaGo poráža majstra sveta v Go" },
+        {
+            "year": 2021,
+            "event": "Generatívne AI ako DALL·E a GPT-3 sa stávajú mainstreamovými"
+        },
+        {
+            "year": 2023,
+            "event": "Generatívne AI a metódy tvorby obrázkov a videí ako normálne nástroje v tvorbe obsahu"
+        }
+    ],
+    "form": {
+        "contactUsTitle": "Kontaktujte nás",
+        "nameLabel": "Meno",
+        "namePlaceholder": "Vaše meno",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Váš email",
+        "messageLabel": "Správa",
+        "messagePlaceholder": "Vaša správa",
+        "sendingButton": "Odosielanie...",
+        "submitButton": "Odoslať",
+        "successMessage": "Správa bola úspešne odoslaná!",
+        "errorMessage": "Nastala chyba pri odosielaní správy."
+    },
+    "quiz_title": "Kvíz o AI",
+    "quiz_end": "Kvíz skončil!",
+    "score": "Vaše skóre: ",
+    "out_of": "z",
+    "start_again": "Začať znova",
+    "next_question": "Ďalšia otázka",
+    "show_results": "Zobraziť výsledok"
+}

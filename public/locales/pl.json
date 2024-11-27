@@ -1,0 +1,42 @@
+{
+    "welcome_message": "Witamy na stronie o AI i sieciach neuronowych",
+    "description": "Przeczytaj o postępach w AI, przetestuj swoją wiedzę i dowiedz się więcej o najnowszych trendach w dziedzinie sztucznej inteligencji!",
+    "timeline_title": "Linia czasu postępów w AI",
+    "events": [
+        { "year": 1956, "event": "Początki AI - Konferencja Dartmouth" },
+        { "year": 1966, "event": "Pierwszy chatbot ELIZA" },
+        { "year": 1997, "event": "Deep Blue pokonuje Kasparowa w szachach" },
+        { "year": 2002, "event": "Początek rozwoju pojazdów autonomicznych" },
+        { "year": 2006, "event": "Przełom w deep learningu dzięki GPU" },
+        { "year": 2012, "event": "AlexNet wygrywa konkurs ImageNet" },
+        { "year": 2016, "event": "AlphaGo pokonuje mistrza świata w Go" },
+        {
+            "year": 2021,
+            "event": "Generatywna AI, jak DALL·E i GPT-3, stają się mainstreamem"
+        },
+        {
+            "year": 2023,
+            "event": "Generatywna AI i tworzenie obrazów i wideo jako normalne narzędzia tworzenia treści"
+        }
+    ],
+    "form": {
+        "contactUsTitle": "Skontaktuj się z nami",
+        "nameLabel": "Imię",
+        "namePlaceholder": "Twoje imię",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Twój email",
+        "messageLabel": "Wiadomość",
+        "messagePlaceholder": "Twoja wiadomość",
+        "sendingButton": "Wysyłanie...",
+        "submitButton": "Wyślij",
+        "successMessage": "Wiadomość została pomyślnie wysłana!",
+        "errorMessage": "Wystąpił błąd podczas wysyłania wiadomości."
+    },
+    "quiz_title": "Quiz o AI",
+    "quiz_end": "Koniec quizu!",
+    "score": "Twoje wyniki: ",
+    "out_of": "z",
+    "start_again": "Rozpocznij ponownie",
+    "next_question": "Następne pytanie",
+    "show_results": "Pokaż wyniki"
+}
